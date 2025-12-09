@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './page-table-mult.css',
 })
 export class PageTableMult {
-
+    n:number =0;
 }

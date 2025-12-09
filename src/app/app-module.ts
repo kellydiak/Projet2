@@ -8,6 +8,8 @@ import { Header } from './component/header/header';
 import { PageTableMult } from './page-table-mult/page-table-mult';
 import { Footer } from './component/footer/footer';
 import { TableMultiplication } from './component/table-multiplication/table-multiplication';
+import { FormsModule } from '@angular/forms';
+import { TablesMultiplication } from './component/tables-multiplication/tables-multiplication';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { TableMultiplication } from './component/table-multiplication/table-mult
     Header,
     PageTableMult,
     Footer,
-    TableMultiplication
+    TableMultiplication,
+    TablesMultiplication
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners()

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-table-multiplication',
@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class TableMultiplication {
 
+    //@Input() n: number = 2
+   @Input() n: number=0;
 }
+
